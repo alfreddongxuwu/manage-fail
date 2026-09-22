@@ -1,0 +1,6 @@
+PASS: only the two selected utterances are included, retaining all their eligible observations.
+PASS: formula matches canonical model; fixed design rank 5/5; two contextual contrasts.
+PASS: contrast estimates, SEs and unadjusted two-sided t p-values match matrix calculations.
+PASS: prior/QUD coefficients, contrasts and 1-df Type II F tests agree.
+PASS: saved model has the expected class, formula, sample size and coefficients.
+PASS: source data, canonical full-sample analysis and original RSA backoff files are unchanged.

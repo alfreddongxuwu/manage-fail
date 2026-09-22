@@ -1,0 +1,21 @@
+Photo item, high prior
+
+Alfred recently took and printed a group photo of himself and his two roommates. He told his roommates that he was planning to put it up soon, and he mentioned several times that putting it up was part of his current plan.
+
+Photo item, low prior
+
+Alfred recently took and printed a group photo of himself and his two roommates. He told his roommates that he was not planning to put it up soon, and he mentioned several times that putting it up was not part of his current plan.
+
+Package item, high prior
+
+Catherine recently received a message saying that a package was waiting for her at the front desk. She told her roommates that she was planning to pick it up soon, and she mentioned several times that picking it up was part of her current plan.
+
+Package item, low prior
+
+Catherine recently received a message saying that a package was waiting for her at the front desk. She told her roommates that she was not planning to pick it up soon, and she mentioned several times that picking it up was not part of her current plan.
+
+
+
+Given what you have read, how likely is it that [Alfred/Catherine] would [put up the photo / pick up the package]?
+
+Given what you have read, how likely is it that [Alfred/Catherine] would try to [put up the photo / pick up the package]?

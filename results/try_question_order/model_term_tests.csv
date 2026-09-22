@@ -1,0 +1,5 @@
+"model_name","term","num_df","den_df","F","p"
+"try_additive_random_item_question_order","utterance",7,949.012812656119,70.2116050585204,1.02488248249573e-81
+"try_additive_random_item_question_order","prior",1,949.015482186987,176.745158186534,4.14256822833397e-37
+"try_additive_random_item_question_order","qud",1,949.003565635726,0.411673709183509,0.52127615121414
+"try_additive_random_item_question_order","rating_order",1,949.251439876812,0.0360563430165641,0.849439781553698

@@ -1,0 +1,11 @@
+scope,utterance_id,qud,measure,direction,matched_rating_order,matched_order_n,matched_order_try_mean,other_rating_order,other_order_n,other_order_try_mean,matched_minus_other_order_try_mean
+all_four_implicatives,all,TRY?,try_rating,QUD-matched order - other order,TRY?|P?|NAT,112,0.4751,P?|TRY?|NAT,125,0.5395,-0.0644
+all_four_implicatives,all,P?,try_rating,QUD-matched order - other order,P?|TRY?|NAT,120,0.5102,TRY?|P?|NAT,125,0.5519,-0.0417
+by_implicative,managed,TRY?,try_rating,QUD-matched order - other order,TRY?|P?|NAT,30,0.705,P?|TRY?|NAT,29,0.7109,-0.0059
+by_implicative,managed,P?,try_rating,QUD-matched order - other order,P?|TRY?|NAT,31,0.823,TRY?|P?|NAT,30,0.7164,0.1066
+by_implicative,didnt_manage,TRY?,try_rating,QUD-matched order - other order,TRY?|P?|NAT,24,0.4066,P?|TRY?|NAT,36,0.3249,0.0817
+by_implicative,didnt_manage,P?,try_rating,QUD-matched order - other order,P?|TRY?|NAT,25,0.2958,TRY?|P?|NAT,36,0.3755,-0.0797
+by_implicative,failed,TRY?,try_rating,QUD-matched order - other order,TRY?|P?|NAT,35,0.2783,P?|TRY?|NAT,25,0.4253,-0.147
+by_implicative,failed,P?,try_rating,QUD-matched order - other order,P?|TRY?|NAT,39,0.2674,TRY?|P?|NAT,22,0.3588,-0.0914
+by_implicative,didnt_fail,TRY?,try_rating,QUD-matched order - other order,TRY?|P?|NAT,23,0.5105,P?|TRY?|NAT,35,0.697,-0.1865
+by_implicative,didnt_fail,P?,try_rating,QUD-matched order - other order,P?|TRY?|NAT,25,0.6546,TRY?|P?|NAT,37,0.7568,-0.1022

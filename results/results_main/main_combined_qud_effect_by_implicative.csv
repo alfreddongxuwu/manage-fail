@@ -1,0 +1,9 @@
+utterance_id,measure,direction,p_qud_n,p_qud_try_mean,try_qud_n,try_qud_try_mean,p_qud_minus_try_qud_try_mean
+managed,try_rating,P? - TRY?,61,0.7657,59,0.7114,0.0543
+didnt_manage,try_rating,P? - TRY?,61,0.3609,60,0.3568,0.0041
+failed,try_rating,P? - TRY?,61,0.3099,60,0.337,-0.0271
+didnt_fail,try_rating,P? - TRY?,62,0.71,58,0.6281,0.0819
+did,try_rating,P? - TRY?,62,0.6911,60,0.6893,0.0018
+didnt,try_rating,P? - TRY?,60,0.1973,59,0.3009,-0.1036
+tried,try_rating,P? - TRY?,60,0.6952,60,0.6015,0.0937
+didnt_try,try_rating,P? - TRY?,59,0.1846,59,0.1843,0.0003

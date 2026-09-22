@@ -1,0 +1,71 @@
+Additive TRY mixed-effects model: didn't manage + didn't fail
+try ~ utterance + prior + qud + rating_order + (1 | item)
+Response: try_rating_01, scale 0-1. Estimation: REML.
+Reference levels: didn't manage; low; TRY?; TRY-first (TRY?|P?|NAT). Item: package/photo.
+All p-values are unadjusted. Tests use Satterthwaite degrees of freedom.
+
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: try ~ utterance + prior + qud + rating_order + (1 | item)
+   Data: d
+
+REML criterion at convergence: 159.8
+
+Scaled residuals:
+     Min       1Q   Median       3Q      Max
+-2.47765 -0.65144  0.03186  0.73185  2.00638
+
+Random effects:
+ Groups   Name        Variance  Std.Dev.
+ item     (Intercept) 0.0009911 0.03148
+ Residual             0.1047002 0.32357
+Number of obs: 241, groups:  item, 2
+
+Fixed effects:
+                         Estimate Std. Error        df t value Pr(>|t|)
+(Intercept)               0.21935    0.05343   9.20107   4.106  0.00253 **
+utterancedidnt_fail       0.31286    0.04169 235.00425   7.504 1.27e-12 ***
+priorhigh                 0.26851    0.04174 235.00086   6.434 6.92e-10 ***
+qudP?                     0.03475    0.04254 235.01323   0.817  0.41492
+rating_orderP?|TRY?|NAT  -0.02480    0.04257 235.67590  -0.582  0.56079
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Type II Analysis of Variance Table with Satterthwaite's method
+             Sum Sq Mean Sq NumDF  DenDF F value    Pr(>F)
+utterance    5.8953  5.8953     1 235.00 56.3060 1.273e-12 ***
+prior        4.3335  4.3335     1 235.00 41.3901 6.918e-10 ***
+qud          0.0698  0.0698     1 235.01  0.6670    0.4149
+rating_order 0.0355  0.0355     1 235.68  0.3393    0.5608
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Requested prior and QUD contrasts:
+                                                     model             family
+ try ~ utterance + prior + qud + rating_order + (1 | item) contextual_effects
+ try ~ utterance + prior + qud + rating_order + (1 | item) contextual_effects
+     analysis  direction   estimate         se       df         t            p
+ prior_effect high - low 0.26851183 0.04173644 235.0009 6.4335103 6.918250e-10
+   qud_effect  P? - TRY? 0.03474553 0.04254307 235.0132 0.8167144 4.149188e-01
+    ci95_low ci95_high significant_05
+  0.18628645 0.3507372           TRUE
+ -0.04906896 0.1185600          FALSE
+
+Fit diagnostics:
+                                                       model_name
+1 try_didnt_manage_didnt_fail_additive_random_item_question_order
+                                                    formula   n item_levels
+1 try ~ utterance + prior + qud + rating_order + (1 | item) 241           2
+  fixed_columns fixed_rank REML singular singular_tolerance optimizer
+1             5          5 TRUE    FALSE              1e-04 nloptwrap
+  optimizer_code convergence_messages warning_count message_count
+1              0                                  0             0
+  max_abs_gradient min_hessian_eigenvalue item_variance    item_sd
+1     2.474678e-06               119.0125  0.0009910732 0.03148131
+  residual_variance residual_sd         icc
+1         0.1047002   0.3235741 0.009377059
+
+Fit warnings:
+None
+Fit messages:
+None

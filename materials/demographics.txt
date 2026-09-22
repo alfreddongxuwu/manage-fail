@@ -1,0 +1,47 @@
+Demographics
+
+Finally, we would like to ask a few demographic questions. These questions are used only to describe the participant sample in aggregate for research purposes.
+
+Your answers on this page will not affect your payment. You will receive payment regardless of what you answer here, so please answer accurately.
+
+1. How old are you?
+Please enter your age in years.
+[Free-text / numeric response]
+
+2. Which option best describes your gender?
+Woman
+Man
+Non-binary
+Another gender
+Prefer not to say
+
+3. What is the highest level of education you have completed?
+Less than high school
+High school diploma or equivalent
+Some college, no degree
+Associate degree
+Bachelor's degree
+Master’s degree
+Doctoral or professional degree
+Prefer not to say
+
+4. Which option best describes your native language(s)?
+English only
+English and one or more other native languages
+One or more native languages other than English
+Prefer not to say
+
+5. Which country are you currently located in?
+United States
+Canada
+United Kingdom
+Australia
+New Zealand
+Another country
+Prefer not to say
+
+Thank you
+
+Thank you for completing this study. Your response has been recorded.
+
+Please click the button below to submit your responses and return to Prolific. Do not close this page until the submission process is complete.

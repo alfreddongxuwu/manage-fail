@@ -1,0 +1,5 @@
+contrast,measure,direction,implicative_utterance,implicative_n,implicative_try_mean,baseline_utterance,baseline_n,baseline_try_mean,implicative_minus_baseline_try_mean
+managed_minus_did,try_rating,managed - did,managed,120,0.7386,did,122,0.6902,0.0483
+didnt_fail_minus_did,try_rating,didnt_fail - did,didnt_fail,120,0.6691,did,122,0.6902,-0.0212
+didnt_manage_minus_didnt,try_rating,didnt_manage - didnt,didnt_manage,121,0.3589,didnt,119,0.2491,0.1098
+failed_minus_didnt,try_rating,failed - didnt,failed,121,0.3234,didnt,119,0.2491,0.0743

@@ -1,0 +1,8 @@
+category,value,n
+screening_status,exclude,6
+screening_status,include,961
+analysis_status,exclude,6
+analysis_status,include,961
+analysis_exclusion_reason,country_prefer_not_to_say_or_missing,2
+analysis_exclusion_reason,native_language_not_english,2
+analysis_exclusion_reason,native_language_prefer_not_to_say_or_missing,4

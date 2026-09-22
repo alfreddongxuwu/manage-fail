@@ -1,0 +1,3 @@
+"model","family","analysis","direction","estimate","se","df","t","p","ci95_low","ci95_high","significant_05"
+"try ~ utterance + prior + qud + rating_order + (1 | item)","contextual_effects","prior_effect","high - low",0.268511827040365,0.0417364415014107,235.000859280873,6.4335103181063,6.91825014085263e-10,0.186286445231418,0.350737208849312,TRUE
+"try ~ utterance + prior + qud + rating_order + (1 | item)","contextual_effects","qud_effect","P? - TRY?",0.0347455334208138,0.0425430659287878,235.013233663989,0.816714373124256,0.414918781527293,-0.0490689644157778,0.118560031257405,FALSE

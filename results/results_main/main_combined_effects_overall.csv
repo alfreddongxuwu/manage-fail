@@ -1,0 +1,4 @@
+effect,scope,measure,direction,target_group,target_n,target_mean,reference_group,reference_n,reference_mean,effect_estimate
+prior_effect,all_four_implicatives,try_rating,high - low,high,244,0.6603,low,238,0.3846,0.2757
+qud_effect,all_four_implicatives,try_rating,P? - TRY?,P?,245,0.5366,TRY?,237,0.5083,0.0283
+implicative_boost,all_four_implicatives_vs_did_and_didnt,try_rating,all_four_implicatives - did_and_didnt,all_four_implicatives,482,0.5225,did_and_didnt,241,0.4697,0.0528

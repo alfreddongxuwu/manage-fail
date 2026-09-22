@@ -1,0 +1,4 @@
+category,value,n
+status,exclude,1
+status,include,99
+exclude_reason,native_language_not_english,1

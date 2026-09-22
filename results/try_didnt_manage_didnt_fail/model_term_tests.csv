@@ -1,0 +1,5 @@
+"model_name","term","num_df","den_df","F","p"
+"try_didnt_manage_didnt_fail_additive_random_item_question_order","utterance",1,235.004251487059,56.306031026068,1.27318372268224e-12
+"try_didnt_manage_didnt_fail_additive_random_item_question_order","prior",1,235.000859280873,41.3900550131802,6.91825014085263e-10
+"try_didnt_manage_didnt_fail_additive_random_item_question_order","qud",1,235.013233663989,0.667022367267746,0.414918781527293
+"try_didnt_manage_didnt_fail_additive_random_item_question_order","rating_order",1,235.675897191229,0.33929827171482,0.560791412537554

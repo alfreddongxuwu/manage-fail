@@ -1,0 +1,270 @@
+:root {
+  --study-font-size: 1.08rem;
+  color: #1f2933;
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#experiment-root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+#experiment-root,
+.static-final-screen {
+  min-height: 100vh;
+}
+
+.jspsych-display-element,
+.static-final-screen {
+  width: 100%;
+}
+
+.jspsych-content-wrapper,
+.static-final-screen {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.jspsych-content,
+.experiment-column {
+  width: min(33.333vw, 42rem);
+  max-width: none;
+  margin: 0 auto;
+  text-align: left;
+}
+
+h1 {
+  margin: 0 0 1.5rem;
+  color: #16202a;
+  font-size: clamp(1.7rem, 2.1vw, 2.25rem);
+  line-height: 1.2;
+}
+
+p,
+label,
+select,
+input,
+button {
+  font-size: var(--study-font-size);
+}
+
+p {
+  margin: 0 0 1rem;
+  line-height: 1.65;
+}
+
+.question-text {
+  display: block;
+  margin-top: 1.75rem;
+  color: #101820;
+  font-size: var(--study-font-size);
+  line-height: 1.55;
+}
+
+.reading-instruction {
+  margin-bottom: 1rem;
+}
+
+.scenario-text {
+  margin-bottom: 2rem;
+  font-size: var(--study-font-size);
+  font-weight: 700;
+  line-height: 1.75;
+}
+
+.scenario-text strong {
+  font-weight: 700;
+}
+
+.consent-screen h1 {
+  font-size: clamp(1.35rem, 1.6vw, 1.65rem);
+}
+
+.jspsych-btn {
+  min-width: 8rem;
+  margin: 0.75rem 0.4rem 0;
+  padding: 0.75rem 1.15rem;
+  border: 1px solid #52606d;
+  border-radius: 0.45rem;
+  background: #ffffff;
+  color: #18212a;
+  cursor: pointer;
+  font-weight: 600;
+  transition:
+    background-color 120ms ease,
+    border-color 120ms ease,
+    color 120ms ease;
+}
+
+.jspsych-btn:hover,
+.jspsych-btn:focus-visible {
+  border-color: #1d4f76;
+  background: #edf6fc;
+  color: #123b5a;
+}
+
+.jspsych-btn:focus-visible,
+input:focus-visible,
+select:focus-visible,
+.jspsych-slider:focus-visible {
+  outline: 3px solid rgba(29, 79, 118, 0.28);
+  outline-offset: 3px;
+}
+
+.consent-screen p {
+  font-size: var(--study-font-size);
+  line-height: 1.55;
+}
+
+.consent-choice {
+  display: block;
+  width: 100%;
+  margin: 0.65rem 0 0;
+}
+
+#jspsych-html-button-response-btngroup {
+  column-gap: 1.25rem;
+}
+
+.rating-questions {
+  display: grid;
+  gap: 2.6rem;
+  margin-top: 2.25rem;
+}
+
+.rating-control {
+  width: 100%;
+}
+
+.rating-control .question-text {
+  margin: 0 0 1.25rem;
+}
+
+.rating-slider {
+  display: block;
+  width: 100%;
+  margin: 0;
+  accent-color: #1d4f76;
+}
+
+.slider-end-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 0.55rem;
+  color: #273746;
+  font-size: var(--study-font-size);
+  font-weight: 700;
+}
+
+#two-slider-next:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+#two-slider-next,
+#jspsych-survey-html-form-next {
+  margin-top: 2rem;
+}
+
+.demographics-form {
+  display: grid;
+  gap: 1.75rem;
+  margin-top: 2rem;
+}
+
+.demographic-field {
+  display: grid;
+  gap: 0.65rem;
+  justify-items: start;
+}
+
+.demographic-field .question-text {
+  margin-top: 0;
+}
+
+.response-hint {
+  color: #52606d;
+  font-size: var(--study-font-size);
+}
+
+.demographic-field input,
+.demographic-field select {
+  width: 100%;
+  min-height: 2.8rem;
+  padding: 0.65rem 0.75rem;
+  border: 1px solid #9aa5b1;
+  border-radius: 0.4rem;
+  background: #ffffff;
+  color: #1f2933;
+  text-align: left;
+}
+
+.demographic-field select {
+  text-align-last: left;
+}
+
+.field-error {
+  display: none;
+  color: #b42318;
+  font-size: var(--study-font-size);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.field-error:not(:empty) {
+  display: block;
+}
+
+.demographic-field [aria-invalid="true"] {
+  border-color: #b42318;
+}
+
+.completion-screen p,
+.static-completion p {
+  font-size: 1.35rem;
+  line-height: 1.6;
+}
+
+.return-to-prolific {
+  display: inline-block;
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .jspsych-content,
+  .experiment-column {
+    width: min(86vw, 38rem);
+  }
+
+  .jspsych-content-wrapper,
+  .static-final-screen {
+    padding: 2rem 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}

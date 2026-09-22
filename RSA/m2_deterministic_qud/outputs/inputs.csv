@@ -1,0 +1,3 @@
+prior,try_prior,completion_prior,p_outcome_given_try,p_outcome_given_no_try,alpha,qud_observation
+high,0.839,0.8008,0.9439886971538554,0.054617907378356645,1.0,deterministic
+low,0.20685833333333334,0.23859166666666667,0.9439886971538554,0.054617907378356645,1.0,deterministic

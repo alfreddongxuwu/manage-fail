@@ -1,0 +1,9 @@
+utterance_id,measure,direction,high_n,high_try_mean,low_n,low_try_mean,high_minus_low_try_mean
+managed,try_rating,high - low,61,0.8596,59,0.6175,0.2421
+didnt_manage,try_rating,high - low,62,0.5229,59,0.1949,0.328
+failed,try_rating,high - low,61,0.4889,60,0.158,0.3309
+didnt_fail,try_rating,high - low,60,0.77,60,0.5682,0.2018
+did,try_rating,high - low,62,0.8363,60,0.5442,0.2921
+didnt,try_rating,high - low,60,0.3785,59,0.1197,0.2587
+tried,try_rating,high - low,60,0.7605,60,0.5362,0.2243
+didnt_try,try_rating,high - low,60,0.254,58,0.1149,0.1391

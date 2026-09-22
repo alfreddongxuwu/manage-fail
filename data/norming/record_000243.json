@@ -1,0 +1,28 @@
+{
+  "participant_uuid": "U000231",
+  "study_version": "norming-1.0.0-main",
+  "collection_mode": "main",
+  "prolific_pid": "P000464",
+  "prolific_study_id": "S000003",
+  "prolific_session_id": "T000648",
+  "assignment_source": "datapipe-sequential",
+  "condition_id": 3,
+  "item": "package",
+  "prior": "low",
+  "consent_given": true,
+  "consent_rt_ms": 4443,
+  "instructions_rt_ms": 5874,
+  "rating_rt_ms": 42004,
+  "completion_rating": 71,
+  "try_rating": 18,
+  "question_order": [
+    "try",
+    "completion"
+  ],
+  "demographics_rt_ms": 19129,
+  "age": 18,
+  "gender": "man",
+  "education": "associate",
+  "native_language": "english-only",
+  "country": "united-states"
+}

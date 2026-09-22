@@ -1,0 +1,17 @@
+node_modules/
+dist/
+site/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.rds
+.DS_Store
+Thumbs.db
+.agents/
+.codex/
+tmp/
+.agents/
+.codex/
+tmp/

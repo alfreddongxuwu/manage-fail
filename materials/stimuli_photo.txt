@@ -1,0 +1,29 @@
+Please read the following text.
+
+(Photo item, high prior, QUD=P?)
+
+Alfred recently took and printed a group photo of himself and his two roommates. He told his roommates that he was planning to put it up soon, and he mentioned several times that putting it up was part of his current plan.
+
+Later, Alfred's roommate Catherine happened to think of the photo and wondered whether Alfred put it up. She asked their other roommate, who was reliable and knew what actually happened, whether Alfred put up the photo. The roommate answered: "[UTTERANCE]"
+
+(Photo item, low prior, QUD=TRY?)
+
+Alfred recently took and printed a group photo of himself and his two roommates. He told his roommates that he was not planning to put it up soon, and he mentioned several times that putting it up was not part of his current plan.
+
+Later, Alfred's roommate Catherine happened to think of the photo and wondered whether Alfred TRIED TO put it up. She asked their other roommate, who was reliable and knew what actually happened, whether Alfred TRIED TO put up the photo. The roommate answered: "[UTTERANCE]"
+
+Utterance set:
+Alfred managed to put up the photo.
+Alfred didn't manage to put up the photo.
+Alfred failed to put up the photo.
+Alfred didn't fail to put up the photo.
+Alfred put up the photo.
+Alfred didn't put up the photo.
+Alfred tried to put up the photo.
+Alfred didn't try to put up the photo.
+
+Given what you have read, how likely is it that Alfred tried to put up the photo?
+
+Given what you have read, how likely is it that Alfred put up the photo?
+
+How natural does the roommate's answer sound in this context?

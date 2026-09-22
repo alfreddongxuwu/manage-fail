@@ -1,0 +1,28 @@
+{
+  "participant_uuid": "U000979",
+  "study_version": "norming-1.0.0-main",
+  "collection_mode": "main",
+  "prolific_pid": "P000366",
+  "prolific_study_id": "S000003",
+  "prolific_session_id": "T000088",
+  "assignment_source": "datapipe-sequential",
+  "condition_id": 0,
+  "item": "photo",
+  "prior": "high",
+  "consent_given": true,
+  "consent_rt_ms": 20040,
+  "instructions_rt_ms": 6713,
+  "rating_rt_ms": 75027,
+  "completion_rating": 79,
+  "try_rating": 63,
+  "question_order": [
+    "try",
+    "completion"
+  ],
+  "demographics_rt_ms": 36533,
+  "age": 70,
+  "gender": "man",
+  "education": "high-school",
+  "native_language": "english-and-other",
+  "country": "united-kingdom"
+}

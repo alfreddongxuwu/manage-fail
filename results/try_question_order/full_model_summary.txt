@@ -1,0 +1,143 @@
+Additive TRY mixed-effects model with question order
+try ~ utterance + prior + qud + rating_order + (1 | item)
+Response: try_rating_01, scale 0-1. Estimation: REML.
+Reference levels: managed; low; TRY?; TRY-first (TRY?|P?|NAT). Item: package/photo.
+All p-values are unadjusted. Tests use Satterthwaite degrees of freedom.
+
+Linear mixed model fit by REML. t-tests use Satterthwaite's method [
+lmerModLmerTest]
+Formula: try ~ utterance + prior + qud + rating_order + (1 | item)
+   Data: d
+
+REML criterion at convergence: 431.6
+
+Scaled residuals:
+     Min       1Q   Median       3Q      Max
+-2.72196 -0.67134 -0.02713  0.70781  2.95248
+
+Random effects:
+ Groups   Name        Variance  Std.Dev.
+ item     (Intercept) 0.0004305 0.02075
+ Residual             0.0869471 0.29487
+Number of obs: 961, groups:  item, 2
+
+Fixed effects:
+                          Estimate Std. Error         df t value Pr(>|t|)
+(Intercept)               0.607826   0.035051  15.985541  17.341 8.66e-12 ***
+utterancedidnt_manage    -0.379875   0.037989 949.002526 -10.000  < 2e-16 ***
+utterancefailed          -0.415418   0.037993 949.001756 -10.934  < 2e-16 ***
+utterancedidnt_fail      -0.066872   0.038068 949.009675  -1.757   0.0793 .
+utterancedid             -0.048174   0.037911 949.000000  -1.271   0.2041
+utterancedidnt           -0.490728   0.038150 949.020621 -12.863  < 2e-16 ***
+utterancetried           -0.090441   0.038076 949.000135  -2.375   0.0177 *
+utterancedidnt_try       -0.555158   0.038230 949.010819 -14.521  < 2e-16 ***
+priorhigh                 0.252979   0.019029 949.015482  13.295  < 2e-16 ***
+qudP?                     0.012239   0.019076 949.003566   0.642   0.5213
+rating_orderP?|TRY?|NAT  -0.003625   0.019089 949.251440  -0.190   0.8494
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Type II Analysis of Variance Table with Satterthwaite's method
+             Sum Sq Mean Sq NumDF  DenDF  F value Pr(>F)
+utterance    42.733  6.1047     7 949.01  70.2116 <2e-16 ***
+prior        15.367 15.3675     1 949.02 176.7452 <2e-16 ***
+qud           0.036  0.0358     1 949.00   0.4117 0.5213
+rating_order  0.003  0.0031     1 949.25   0.0361 0.8494
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Planned contrasts:
+                                                     model
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+ try ~ utterance + prior + qud + rating_order + (1 | item)
+                     family                                    analysis
+         contextual_effects                                prior_effect
+         contextual_effects                                  qud_effect
+             question_order                         rating_order_effect
+  contextual_cue_comparison                      prior_minus_qud_effect
+  implicative_boost_overall implicative_boost_all_four_vs_did_and_didnt
+  implicative_boost_by_pair                           managed_minus_did
+  implicative_boost_by_pair                        didnt_fail_minus_did
+  implicative_boost_by_pair                    didnt_manage_minus_didnt
+  implicative_boost_by_pair                          failed_minus_didnt
+  implicative_boost_grouped            managed_and_didnt_fail_minus_did
+  implicative_boost_grouped         didnt_manage_and_failed_minus_didnt
+ positive_outcome_contrasts                    positive_outcome_grouped
+ positive_outcome_contrasts                  managed_minus_didnt_manage
+ positive_outcome_contrasts                     didnt_fail_minus_failed
+                                                          direction
+                                                         high - low
+                                                          P? - TRY?
+                                       completion-first - TRY-first
+                               (high - low prior) - (P? - TRY? QUD)
+ mean(managed, didnt_manage, failed, didnt_fail) - mean(did, didnt)
+                                                      managed - did
+                                                   didnt_fail - did
+                                               didnt_manage - didnt
+                                                     failed - didnt
+                                    mean(managed, didnt_fail) - did
+                                 mean(didnt_manage, failed) - didnt
+             mean(managed, didnt_fail) - mean(didnt_manage, failed)
+                                             managed - didnt_manage
+                                                didnt_fail - failed
+     estimate         se       df          t            p      ci95_low
+  0.252979316 0.01902879 949.0155 13.2945537 4.142568e-37  0.2156359398
+  0.012239205 0.01907553 949.0036  0.6416180 5.212762e-01 -0.0251958928
+ -0.003624804 0.01908946 949.2514 -0.1898851 8.494398e-01 -0.0410872237
+  0.240740111 0.02717701 949.0021  8.8582260 3.936355e-18  0.1874061258
+  0.053909724 0.02326466 949.0260  2.3172370 2.070285e-02  0.0082536071
+  0.048174150 0.03791094 949.0000  1.2707188 2.041401e-01 -0.0262248212
+ -0.018697852 0.03791185 949.0098 -0.4931928 6.219905e-01 -0.0930986060
+  0.110853058 0.03807118 949.0374  2.9117315 3.678459e-03  0.0361396285
+  0.075309538 0.03806915 949.0105  1.9782301 4.819161e-02  0.0006000934
+  0.014738149 0.03278685 949.0033  0.4495140 6.531635e-01 -0.0496049559
+  0.093081298 0.03301494 949.0291  2.8193690 4.911959e-03  0.0282905754
+  0.364210726 0.02686435 949.0041 13.5574018 2.100326e-38  0.3114903379
+  0.379874967 0.03798884 949.0025  9.9996459 1.886255e-22  0.3053231230
+  0.348546485 0.03799363 949.0197  9.1738140 2.774799e-19  0.2739852478
+  ci95_high significant_05
+ 0.29032269           TRUE
+ 0.04967430          FALSE
+ 0.03383762          FALSE
+ 0.29407410           TRUE
+ 0.09956584           TRUE
+ 0.12257312          FALSE
+ 0.05570290          FALSE
+ 0.18556649           TRUE
+ 0.15001898           TRUE
+ 0.07908125          FALSE
+ 0.15787202           TRUE
+ 0.41693111           TRUE
+ 0.45442681           TRUE
+ 0.42310772           TRUE
+
+Fit diagnostics:
+                               model_name
+1 try_additive_random_item_question_order
+                                                    formula   n item_levels
+1 try ~ utterance + prior + qud + rating_order + (1 | item) 961           2
+  fixed_columns fixed_rank REML singular singular_tolerance optimizer
+1            11         11 TRUE    FALSE              1e-04 nloptwrap
+  optimizer_code convergence_messages warning_count message_count
+1              0                                  0             0
+  max_abs_gradient min_hessian_eigenvalue item_variance    item_sd
+1     2.273509e-05               399.8743  0.0004305265 0.02074913
+  residual_variance residual_sd         icc
+1        0.08694706   0.2948679 0.004927197
+
+Fit warnings:
+None
+Fit messages:
+None

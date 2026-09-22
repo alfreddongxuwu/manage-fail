@@ -1,0 +1,4 @@
+contrast,positive_utterances,positive_n,positive_try_mean,positive_try_sd,negative_utterances,negative_n,negative_try_mean,negative_try_sd,positive_minus_negative_try_mean
+positive_outcome_grouped,managed|didnt_fail,240,0.7038,0.3448,didnt_manage|failed,242,0.3412,0.3336,0.3626
+managed_minus_didnt_manage,managed,120,0.7386,0.3046,didnt_manage,121,0.3589,0.3388,0.3797
+didnt_fail_minus_failed,didnt_fail,120,0.6691,0.3776,failed,121,0.3234,0.3273,0.3456

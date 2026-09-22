@@ -1,0 +1,5 @@
+rt_field,n,mean_ms,sd_ms,se_ms
+consent_rt_ms,99,14760.1488,20364.051,2031.0248
+instructions_rt_ms,99,7576.0179,8418.5107,838.8689
+rating_rt_ms,99,39261.6933,28541.4326,2848.1292
+demographics_rt_ms,99,30483.2025,46175.2666,4504.4688

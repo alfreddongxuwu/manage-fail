@@ -1,0 +1,21 @@
+{
+  "name": "manage-fail-main-experiment",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@jspsych/plugin-html-button-response": "2.1.0",
+    "@jspsych/plugin-survey-html-form": "2.1.0",
+    "jspsych": "8.2.3"
+  },
+  "devDependencies": {
+    "vite": "7.2.4"
+  },
+  "packageManager": "pnpm@11.0.7"
+}

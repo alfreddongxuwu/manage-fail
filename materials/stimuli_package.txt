@@ -1,0 +1,29 @@
+Please read the following text.
+
+(Package item, high prior, QUD=P?)
+
+Catherine recently received a message saying that a package was waiting for her at the front desk. She told her two roommates that she was planning to pick it up soon, and she mentioned several times that picking it up was part of her current plan.
+
+Later, Catherine's roommate Alfred happened to think of the package and wondered whether Catherine picked it up. He asked their other roommate, who was reliable and knew what actually happened, whether Catherine picked up the package. The roommate answered: "[UTTERANCE]"
+
+(Package item, low prior, QUD=TRY?)
+
+Catherine recently received a message saying that a package was waiting for her at the front desk. She told her two roommates that she was not planning to pick it up soon, and she mentioned several times that picking it up was not part of her current plan.
+
+Later, Catherine's roommate Alfred happened to think of the package and wondered whether Catherine TRIED TO pick it up. He asked their other roommate, who was reliable and knew what actually happened, whether Catherine TRIED TO pick up the package. The roommate answered: "[UTTERANCE]"
+
+Utterance set:
+Catherine managed to pick up the package.
+Catherine didn't manage to pick up the package.
+Catherine failed to pick up the package.
+Catherine didn't fail to pick up the package.
+Catherine picked up the package.
+Catherine didn't pick up the package.
+Catherine tried to pick up the package.
+Catherine didn't try to pick up the package.
+
+Given what you have read, how likely is it that Catherine tried to pick up the package?
+
+Given what you have read, how likely is it that Catherine picked up the package?
+
+How natural does the roommate's answer sound in this context?

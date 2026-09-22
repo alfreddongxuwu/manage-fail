@@ -1,0 +1,5 @@
+PASS: input unchanged and all included participants retained.
+PASS: fixed design rank 11/11; 14 planned contrasts.
+PASS: contrast estimates, SEs and two-sided t p-values match matrix calculations.
+PASS: order coefficient, planned contrast and 1-df F test agree.
+PASS: saved model has the expected class, formula and sample size.

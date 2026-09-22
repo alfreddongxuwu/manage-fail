@@ -1,0 +1,5 @@
+condition_id,item,prior,n,try_mean,try_sd,try_se,completion_mean,completion_sd,completion_se,try_minus_completion_mean,try_minus_completion_sd,try_minus_completion_se,participant_mean_mean,participant_mean_sd,participant_mean_se
+0,photo,high,25,0.8172,0.244,0.0488,0.78,0.2626,0.0525,0.0372,0.1401,0.028,0.7986,0.2436,0.0487
+1,photo,low,25,0.2108,0.2326,0.0465,0.2176,0.2362,0.0472,-0.0068,0.148,0.0296,0.2142,0.2224,0.0445
+2,package,high,25,0.8608,0.2342,0.0468,0.8216,0.2287,0.0457,0.0392,0.1236,0.0247,0.8412,0.2231,0.0446
+3,package,low,24,0.2029,0.2514,0.0513,0.2596,0.2882,0.0588,-0.0567,0.2835,0.0579,0.2313,0.2303,0.047

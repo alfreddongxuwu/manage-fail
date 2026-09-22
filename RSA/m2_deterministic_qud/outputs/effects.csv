@@ -1,0 +1,9 @@
+effect,deterministic_qud_m2,observed_descriptive
+collapsed_implicative_prior_effect,0.27170912190603985,0.2756935096153845
+collapsed_implicative_qud_effect_P_minus_TRY,-0.009352230377683735,0.028296073717948733
+positive_outcome_boost,0.00418590023447607,0.013575950091575084
+negative_outcome_boost,0.11268183100846867,0.09206547619047623
+positive_outcome_boost_within_P?,0.013324200329067226,0.04671875000000003
+negative_outcome_boost_within_P?,0.09424968255463623,0.13811904761904759
+positive_outcome_boost_within_TRY?,-0.0049523998601150865,-0.019566849816849863
+negative_outcome_boost_within_TRY?,0.13111397946230108,0.04601190476190481
