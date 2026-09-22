@@ -1,32 +1,37 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { itemFromPath, previewAssignmentFromLocation } from "../src/routing.js";
+import { previewAssignmentFromLocation } from "../src/routing.js";
+import { CONDITIONS } from "../src/stimuli.js";
 
-test("preview links expose item routes in the path", () => {
-  assert.equal(itemFromPath("/manage-fail/main-experiment/photo/"), "photo");
-  assert.equal(itemFromPath("/manage-fail/main-experiment/package/"), "package");
-  assert.equal(itemFromPath("/manage-fail/main-experiment/"), undefined);
+test("the main entry supports all 64 conditions across both items", () => {
+  for (const expected of CONDITIONS) {
+    const assignment = previewAssignmentFromLocation({
+      pathname: "/manage-fail/main-experiment/",
+      search: `?condition=${expected.global_condition_id}`,
+    });
+    assert.equal(assignment.selectedCondition, expected);
+    assert.equal(assignment.assignmentSource, "url-forced-preview");
+  }
 });
 
-test("condition query ids are local inside item routes", () => {
-  const photo = previewAssignmentFromLocation({
-    pathname: "/manage-fail/main-experiment/photo/",
-    search: "?condition=0",
-  });
-  const packageItem = previewAssignmentFromLocation({
-    pathname: "/manage-fail/main-experiment/package/",
-    search: "?condition=0",
-  });
+test("the ordinary main entry selects a condition from the complete design", () => {
+  for (const value of [0, 0.5, 0.999999]) {
+    const originalRandom = Math.random;
+    try {
+      Math.random = () => value;
+      const assignment = previewAssignmentFromLocation({ search: "" });
+      assert.equal(assignment.selectedCondition, CONDITIONS[Math.floor(value * CONDITIONS.length)]);
+      assert.equal(assignment.assignmentSource, "local-random-preview");
+    } finally {
+      Math.random = originalRandom;
+    }
+  }
+});
 
-  assert.equal(photo.selectedCondition.item, "photo");
-  assert.equal(photo.selectedCondition.local_condition_id, 0);
-  assert.equal(photo.selectedCondition.global_condition_id, 0);
-  assert.equal(photo.itemRoute, "photo");
-  assert.equal(photo.assignmentSource, "url-forced-photo-preview");
-
-  assert.equal(packageItem.selectedCondition.item, "package");
-  assert.equal(packageItem.selectedCondition.local_condition_id, 0);
-  assert.equal(packageItem.selectedCondition.global_condition_id, 32);
-  assert.equal(packageItem.itemRoute, "package");
-  assert.equal(packageItem.assignmentSource, "url-forced-package-preview");
+test("invalid condition values fall back to random assignment", () => {
+  for (const search of ["?condition=-1", "?condition=64", "?condition=invalid"]) {
+    const assignment = previewAssignmentFromLocation({ search });
+    assert.ok(CONDITIONS.includes(assignment.selectedCondition));
+    assert.equal(assignment.assignmentSource, "local-random-preview");
+  }
 });

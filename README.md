@@ -38,10 +38,9 @@ pnpm dev
 
 Requires Node.js 22 and pnpm 11.0.7. Both demos retain the experiment flow, upload no responses, and redirect to the Prolific homepage on completion. Prolific URL parameters do not enable collection.
 
-After GitHub Pages deployment, the entry points are:
+Experiment links:
 
 - [Norming](https://alfreddongxuwu.github.io/manage-fail/norming/)
-- [Photo](https://alfreddongxuwu.github.io/manage-fail/main-experiment/photo/)
-- [Package](https://alfreddongxuwu.github.io/manage-fail/main-experiment/package/)
+- [Main experiment](https://alfreddongxuwu.github.io/manage-fail/main-experiment/)
 
-Append `?condition=0` to select a condition (0-3 for norming; 0-31 within each main item). The workflow builds both demos. Deployment is disabled unless GitHub Pages is configured and the repository variable `ENABLE_PAGES` is set to `true`.
+The main experiment randomly selects from both items. Append `?condition=0` to select a condition (0-3 for norming; 0-63 for the main experiment). The workflow builds both demos. Deployment is disabled unless GitHub Pages is configured and the repository variable `ENABLE_PAGES` is set to `true`.
