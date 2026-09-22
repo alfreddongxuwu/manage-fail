@@ -49,7 +49,7 @@ def main() -> None:
                "p_outcome_given_try": r1, "p_outcome_given_no_try": r0, "alpha": ALPHA}
               for c in PRIORS]
     write_csv(output_dir / "inputs.csv", inputs, list(inputs[0]))
-    print(f"M2 alpha={ALPHA:g}: wrote {len(rows)} utterances to {output_dir}")
+    print(f"M-causal alpha={ALPHA:g}: wrote {len(rows)} utterances to {output_dir}")
 
 if __name__ == "__main__":
     main()

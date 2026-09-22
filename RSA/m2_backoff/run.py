@@ -153,7 +153,7 @@ def main() -> None:
         ],
     )
 
-    print("M2 BACKOFF PREDICTIONS")
+    print("M-backoff PREDICTIONS")
     print("utterance            high      low  overall")
     for row in prediction_rows:
         print(

@@ -317,7 +317,7 @@ def main() -> None:
         ],
     )
 
-    print("DETERMINISTIC-QUD M2 PREDICTIONS")
+    print("M-QUD PREDICTIONS")
     print("utterance          QUD     high      low  overall  observed")
     for row in prediction_rows:
         print(

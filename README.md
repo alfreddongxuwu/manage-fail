@@ -5,7 +5,7 @@ Experimental materials, de-identified data, statistical analyses and RSA models.
 - `data/`: 100 norming records, 483 photo records, 484 package records and 240 photo pilot records. The pilot is excluded from the main analysis.
 - `code/`: screening, descriptive statistics and figure scripts.
 - `results/`: analysis tables and R mixed-model scripts.
-- `RSA/`: M0, M1, M2, Mqud and Mbackoff, with fixed alpha = 1.
+- `RSA/`: M-outcome and M-attempt baselines, the main M-causal model, and M-QUD/M-backoff extensions; alpha = 1.
 - `experiments/`: norming and main-experiment demos.
 - `materials/`: consent, demographic questions and stimuli.
 - `figures/`: experiment examples and analysis figures.

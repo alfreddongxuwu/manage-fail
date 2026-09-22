@@ -47,7 +47,7 @@ def meaning_matrix() -> np.ndarray:
         elif utterance == "didnt_try":
             row = [float(state.tried == 0) for state in STATES]
         else:
-            raise AssertionError(f"No M0 meaning defined for {utterance!r}")
+            raise AssertionError(f"No M-outcome meaning defined for {utterance!r}")
         rows.append(row)
     return np.array(rows, dtype=float)
 
