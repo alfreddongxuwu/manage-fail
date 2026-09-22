@@ -44,4 +44,4 @@ After GitHub Pages deployment, the entry points are:
 - [Photo](https://alfreddongxuwu.github.io/manage-fail/main-experiment/photo/)
 - [Package](https://alfreddongxuwu.github.io/manage-fail/main-experiment/package/)
 
-Append `?condition=0` to select a condition (0-3 for norming; 0-31 within each main item). The Pages workflow builds both demos from this repository.
+Append `?condition=0` to select a condition (0-3 for norming; 0-31 within each main item). The workflow builds both demos. Deployment is disabled unless GitHub Pages is configured and the repository variable `ENABLE_PAGES` is set to `true`.
