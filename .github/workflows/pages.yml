@@ -28,7 +28,7 @@ jobs:
             mkdir -p site/$experiment
             cp -R experiments/$experiment/dist/. site/$experiment/
           done
-          cp site-index.html site/index.html
+          cp experiments/index.html site/index.html
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:
